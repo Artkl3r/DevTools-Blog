@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --fonte-principal: "Barlow Condensed", sans-serif;
+  --cor-fundo: #f9f9f9;
+  --cor-texto: #1f2b37;
+  --nav-footer-color: #4f76f6;
+  --cor-extra: #77f2a1;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  position: relative;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  background-color: var(--cor-fundo);
+}
+
+.about-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 60px auto; 
+  max-width: 1100px;
+  padding: 20px;
+}
+
+.about-blog .text-content {
+  flex: 1;
+  max-width: 55%;
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+
+.about-blog img {
+  flex: 1;
+  max-width: 270px;
+  height: auto;
+  display: block;
+}
+
+.card-row {
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px; */
+  display: flex;
+  justify-content: center; 
+  gap: 28px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 calc(50% - 20px);
+  min-width: 240px;
+  max-width: 300px;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  /* margin: 30px; */
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-size: 25.9px;
+  font-weight: 600;
+}
+
+#github-rodrigo-card,
+#github-arthur-card {
+  font-size: 31px;
+  color: var(--cor-texto);
+}
+
+#github-rodrigo-card:hover,
+#github-arthur-card:hover {
+  color: darkgrey;
+  transform: scale(1.1);
+}
+
+.our-team {
+  text-align: center;
+  font-size: 26px;
+}

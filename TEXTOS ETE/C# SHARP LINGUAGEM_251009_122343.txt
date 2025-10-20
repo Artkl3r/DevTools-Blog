@@ -1,0 +1,63 @@
+O que é C#?
+C# (lê-se “C Sharp”) é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, criada pela Microsoft no ano 2000 como parte da plataforma .NET. Seu objetivo é unir a simplicidade do C++ com a produtividade do Visual Basic, oferecendo uma sintaxe clara, recursos avançados e integração nativa com o ecossistema Windows.
+Hoje, o C# é amplamente utilizado em aplicações empresariais, jogos, sistemas web, mobile e soluções em nuvem — tornando-se uma das linguagens mais completas e poderosas do mercado.
+
+Funcionalidades principais
+C# se destaca por sua versatilidade, segurança e facilidade de integração com diversas plataformas. Entre suas principais características estão:
+<br>
+• Orientação a Objetos: favorece a modularidade e a reutilização do código.
+<br>
+• Integração com o .NET: oferece um vasto conjunto de bibliotecas para praticamente qualquer tipo de aplicação.
+<br>
+• Multiplataforma: com o .NET Core, é possível desenvolver e executar aplicações em Windows, Linux e macOS.
+<br>
+• Segurança e tipagem forte: minimiza erros e vulnerabilidades durante a compilação.
+<br>
+• Programação assíncrona (async/await): ideal para aplicações que exigem alto desempenho e resposta rápida.
+<br>
+• Suporte a paradigmas modernos: como programação funcional, genérica e orientada a componentes.
+<br>
+• Ferramentas poderosas: integração com o Visual Studio e Visual Studio Code, ambientes completos para desenvolvimento.
+
+Onde o C# é usado?
+A linguagem C# está presente em uma ampla gama de áreas tecnológicas, destacando-se em:
+<br>
+• Desenvolvimento Web: criação de APIs e sistemas com ASP.NET Core, framework robusto e escalável.
+<br>
+• Aplicações Desktop: desenvolvimento de softwares para Windows com Windows Forms e WPF.
+<br>
+• Desenvolvimento Mobile: criação de aplicativos para Android e iOS com .NET MAUI ou Xamarin.
+<br>
+
+• Games: linguagem principal da Unity, uma das engines mais populares do mundo para criação de jogos 2D, 3D e VR.
+<br>
+• Sistemas corporativos: amplamente usada em bancos, indústrias e órgãos públicos para soluções de grande porte.
+<br>
+• Computação em Nuvem: integração nativa com Microsoft Azure e outras plataformas cloud.
+
+Profissões que utilizam C#
+O domínio de C# abre portas para diversas carreiras no mercado de tecnologia. Algumas das funções mais comuns são:
+<br>
+• Desenvolvedor Back-end C#
+<br>
+• Engenheiro de Software .NET
+<br>
+• Desenvolvedor Full-Stack .NET
+<br>
+• Desenvolvedor de Jogos
+<br>
+• Desenvolvedor Mobile.
+<br>
+• Arquiteto de Software
+
+Média salarial no Brasil
+O mercado de trabalho para quem domina C# é bastante aquecido, especialmente em empresas que utilizam tecnologias Microsoft. As faixas salariais variam conforme a experiência:
+• Júnior (até 2 anos): entre R$ 4.000 e R$ 6.000 mensais.
+<br>
+• Pleno (3 a 5 anos): entre R$ 7.000 e R$ 9.500 por mês.
+<br>
+• Sênior (5+ anos): entre R$ 11.000 e R$ 16.000, podendo ultrapassar R$ 18.000 em projetos corporativos ou de nuvem.
+
+Conclusão
+C# é uma linguagem moderna, poderosa e extremamente versátil, que continua evoluindo junto com o ecossistema .NET. Sua capacidade de atender desde aplicações empresariais até o desenvolvimento de jogos e aplicativos móveis faz dela uma das opções mais completas para quem busca uma carreira sólida em tecnologia.
+Aprender C# é dominar uma linguagem com alta demanda, amplo suporte e um futuro promissor, impulsionado pela constante inovação da Microsoft e pela comunidade global de desenvolvedores.

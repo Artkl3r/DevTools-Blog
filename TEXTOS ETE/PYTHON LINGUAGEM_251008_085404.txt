@@ -1,0 +1,48 @@
+O que é Python?
+Python é uma linguagem de programação de alto nível, interpretada e multiparadigma. Seu principal diferencial está na simplicidade e legibilidade do código, o que a torna perfeita tanto para iniciantes quanto para profissionais experientes.
+Hoje, Python é uma das linguagens mais populares do planeta, usada em áreas que vão desde o desenvolvimento web até ciência de dados e inteligência artificial.
+
+As principais funcionalidades são:
+• Sintaxe simples e intuitiva: fácil de aprender e de escrever, próxima do inglês.
+• Bibliotecas completas e abrangentes
+• Programação multiparadigma: suporta orientação a objetos, programação funcional e imperativa.
+• Automação de tarefas: criação de scripts para simplificar processos repetitivos.
+• Análise e visualização de dados: ferramentas que ajudam cientistas de dados a explorar grandes volumes de informação.
+• Machine Learning e Inteligência Artificial: com frameworks robustos para modelos de aprendizado de máquina.
+• Desenvolvimento web: com frameworks como Django e Flask para criar sites e APIs completas.
+
+Onde o Python é usado?
+Python aparece em diversas áreas do desenvolvimento digital e além:
+
+• Ciência de Dados e Inteligência Artificial: análise de dados, machine learning, deep learning.
+• Automação de processos (RPA): desde tarefas simples, como renomear arquivos, até integrações complexas.
+• Desenvolvimento Web: construção de sites e aplicações robustas com frameworks como Django.
+• Desenvolvimento de APIs: back-ends escaláveis e seguros.
+• Cibersegurança: scripts para pentests, automação de auditorias e análise de vulnerabilidades.
+• Computação científica: simulações, modelagens matemáticas e estatísticas.
+• Educação: por ser de fácil aprendizado, é muito usada em cursos e formações iniciais.
+
+Assim como JavaScript, Python abre portas em várias carreiras de tecnologia. Veja algumas delas:
+
+• Cientista de Dados
+• Engenheiro de Machine Learning/IA
+• Desenvolvedor Back-end (Python)
+• Engenheiro de Software:
+• Analista de Automação/RPA
+• Pesquisador Acadêmico.
+
+Média salarial no Brasil
+
+Python é uma das linguagens mais valorizadas no mercado. Os salários variam bastante dependendo da área de atuação (principalmente em ciência de dados e IA). Em média:
+
+Júnior (até 2 anos): entre R$ 4.500 e R$ 6.000 por mês.
+
+Pleno (3 a 5 anos): entre R$ 7.500 e R$ 10.000 mensais.
+
+Sênior (5+ anos): de R$ 12.000 a R$ 16.000, podendo passar de R$ 20.000 em cargos ligados a Data Science e IA.
+
+Esses valores podem variar bastante, especialmente em empresas multinacionais ou startups com foco em tecnologia de ponta.
+
+Conclusão
+
+Python se consolidou como uma linguagem universal: simples de aprender, poderosa para resolver problemas complexos e essencial em setores estratégicos como ciência de dados, IA e desenvolvimento web. Seja você um iniciante dando os primeiros passos ou um profissional que busca se especializar em áreas avançadas, aprender Python é investir em uma das habilidades mais requisitadas do mercado.

@@ -1,0 +1,108 @@
+:root {
+  --fonte-principal: "Barlow Condensed", sans-serif;
+  --cor-fundo: #f9f9f9;
+  --cor-texto: #1f2b37;
+  --nav-footer-color: #4f76f6;
+  --cor-extra: #77f2a1;
+}
+
+footer {
+  width: calc(100vw-12px);
+  margin: 0;
+  padding: 0;
+  height: 200px;
+}
+
+.footer_main {
+  background-color: var(--nav-footer-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_pages {
+  color: var(--cor-fundo);
+}
+
+.img_footer {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.links_footer {
+  text-decoration: none;
+  color: var(--cor-fundo);
+  font-size: 18px;
+  justify-content: center;
+}
+
+.txt-lang-footer {
+  font-size: 18px;
+  color: var(--cor-fundo);
+}
+
+.links_footer:hover {
+  text-decoration: none;
+  color: rgb(29, 29, 42);
+}
+
+#github-rodrigo,
+#github-arthur {
+  font-size: 35px;
+  color: var(--cor-fundo);
+}
+
+#github-rodrigo:hover,
+#github-arthur:hover {
+  transform: scale(1.2);
+  color: var(--cor-texto);
+  cursor: pointer;
+}
+
+.github-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.git-links-thur,
+.git-links-rod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.githubs {
+  text-align: center;
+  padding: 10px;
+  color: var(--cor-fundo);
+}
+
+.githubs p {
+  font-size: 21px;
+}
+
+.lang-linkf a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+.lang-linkf a:hover {
+  color: #1f2b47;
+}
+
+.lang-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 200px;
+}
+
+.lang-linkf {
+  flex: 1 0 30%;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+O que é C?
+
+O C é uma linguagem de programação que tem um propósito para um uso geral, e mesmo abrangendo diversas áreas, ela consegue ter um alto desempenho. Ela é uma linguagem muito importante, pois serviu de base para tantas outras linguagens, como algumas já citadas ja página (C#, C++, Java e Python)
+
+Funcionalidades principais
+
+Uma linguagem conhecida por sua simplocidade, eficiência e portabilidade, continua sendo uma das linguagens mais importantes da computação. Por isso apresentamos a vocês suas principais funcionalidades
+
+•Linguagem estruturada: utiliza funções e blocos de código bem definidos, facilitando a legibilidade e manutenção.
+•Alto desempenho: gera programas extremamente rápidos.
+•Acesso direto à memória: oferece total controle sobre os recursos do sistema.
+•Portabilidade: podem ser facilmente compilados em diferentes sistemas operacionais.
+•Bibliotecas padrão: inclui funções para entrada e saída, manipulação de strings, arquivos e operações matemáticas.
+•Base para outras linguagens: serve como fundamento para linguagens modernas, sendo essencial no aprendizado de lógica e arquitetura de sistemas.
+•Compiladores eficientes: o código é transformado diretamente em linguagem de máquina, otimizando a execução.
+
+Em que área de desenvolvimento digital posso usar C?
+As principais áreas de aplicação incluem:
+
+• Desenvolvimento de sistemas operacionais
+• Sistemas embarcados
+• Aplicações científicas e de engenharia
+• Bancos de dados e servidores
+• Segurança e ciberdefesa
+
+Profissões que utilizam C
+
+* Desenvolvedor C Júnior / Pleno / Sênior
+* Engenheiro de Software de Sistemas
+* Programador de Sistemas Embarcados
+* Engenheiro de Firmware
+* Especialista em Segurança e Redes
+* Engenheiro de Kernel / Driver
+
+Média salarial (Brasil, 2025 – valores aproximados)
+
+* Júnior: R$ 3.000 a R$ 5.000
+* Pleno: R$ 6.000 a R$ 10.000
+* Sênior: R$ 11.000 a R$ 16.000
+•   Engenheiro de Sistemas ou Embarcados: pode ultrapassar R$ 18.000, dependendo da área e da complexidade do projeto.
+
+Atualmente, o C continua sendo uma das linguagens mais importantes da história da computação. Mesmo após décadas, permanece como sinônimo de desempenho, estabilidade e domínio técnico.

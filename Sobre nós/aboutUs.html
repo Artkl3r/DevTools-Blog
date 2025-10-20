@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>DevTools</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="../IMAGENS/icon.png" />
+    <link rel="stylesheet" href="../CSS Geral/navBar.css" />
+    <link rel="stylesheet" href="../CSS Geral/body.css" />
+    <link rel="stylesheet" href="../CSS Geral/footer.css" />
+    <link rel="stylesheet" href="./aboutUs.css" />
+    <!-- Bootstrap online -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap local -->
+    <!-- <link
+      rel="stylesheet"
+      href="../fontawesome-free-7.1.0-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../BOOTSTRAP/bootstrap-4.1.3-dist/css/bootstrap.min.css"
+    /> -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div id="logo-nav">
+            <a href="../home page/homePage.html">
+              <img src="../IMAGENS/icon.png" alt="" class="logo" />
+            </a>
+          </div>
+          <div class="nav-links">
+            <a href="../home page/homePage.html">Inicio</a>
+            <a href="../oqeprogramação/widev.html">O que é programação?</a>
+            <div id="dropdown">
+              <button class="dropbtn" onclick="dropFunc()">
+                Linguagens
+                <i class="fa-solid fa-caret-down" id="arrow_icon"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="../Páginas das linguagens/C.html">C</a>
+                <a href="../Páginas das linguagens/csharp.html">C#</a>
+                <a href="../Páginas das linguagens/c++.html">C++</a>
+                <a href="../Páginas das linguagens/java.html">Java</a>
+                <a href="../Páginas das linguagens/javaScript.html"
+                  >JavaScript</a
+                >
+                <a href="../Páginas das linguagens/python.html">Python</a>
+              </div>
+            </div>
+            <a href="./aboutUs.html">Sobre nós</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="about-blog">
+        <div class="about-text">
+          <h2 style="font-size: 32px">
+            <strong>
+              Porque fazer um blog sobre linguagens de programação?
+            </strong>
+          </h2>
+          <p style="font-size: 20px">
+            A ideia da DevTools surgiu no começo de nossa carreira como
+            desenvolvedores, ao ver a grande variedade de linguagens,
+            oportunidades, e áreas que poderíamos nos aventurar, nós tivemos
+            grandes dificuldades e ainda temos de compreender essa grande gama
+            que está a nossa frente. Assim surge o nosso blog DevTools, para
+            solucionar e aprender a contornar essa dificuldade que nós
+            possuíamos, este site contém desde a explicação do mais simples do
+            que é programação, suas linguagens e suas áreas de aplicação, e
+            quais as profissões onde elas são utilizados.
+          </p>
+        </div>
+        <img src="../IMAGENS/iconText.png" alt="" class="img-logo" />
+      </div>
+
+      <div class="our-team">
+        <h2 style="font-weight: 600; font-size: 36px">Sobre nossa equipe</h2>
+      </div>
+      <div class="card-row">
+        <div class="card" style="width: 19rem">
+          <img
+            class="card-img-top"
+            src="../IMAGENS/foto Arthur.jpg"
+            alt="Imagem de capa do card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Arthur Pereira Faria</h5>
+            <a href="https://github.com/Artkl3r" target="_blank">
+              <i class="fa-brands fa-github" id="github-arthur-card"></i>
+            </a>
+            <!-- <a href="https://br.linkedin.com/in/arthur-pereira-faria-84b71028b?trke=people-guest_people_search-cart" target="_blank">
+              <i class="fa-brands fa-linkedin" id="linkedin-arthur-card"></i>
+            </a> -->
+            <p class="card-text">
+              Eu sou o Arthur, tenho 15 anos e decidi me aventurar no mundo da
+              tecnologia por esse motivo ingrssei no curso de Desenvolvimento de
+              Sistemas na Etec Lauro Gomes, onde pretendo aprender e aprofundar
+              neste vasto ramo que é a área tecnologia. Caso queira entrar em
+              contato em acima estão os meios de se comunicar comigo.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 19rem">
+          <img
+            class="card-img-top"
+            src="../IMAGENS/foto Rodrigo.jpg"
+            alt="Imagem de capa do card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Rodrigo Perez O. Pineda</h5>
+            <a href="https://github.com/rodrigoperezpineda" target="_blank">
+              <i class="fa-brands fa-github" id="github-rodrigo-card"></i>
+            </a>
+            <p class="card-text">
+              Eu sou o Rodrigo, tenho 15 anos e sempre fui apaixonado pela área
+              de T.I., pretendo continuar nessa área, e ao longo dos próximos
+              anos desejo desenvolver diversos novos projetos. Além disso,
+              támbem quero trabalhar em grandes empresas ou ter a minha própria
+              empresa nesse ramo da tecnologia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_main">
+        <img src="../IMAGENS/iconText.png" alt="" class="img_footer" />
+        <div class="our_pages">
+          <h2 class="footer_pages" style="font-size: 23px">Nossas páginas</h2>
+          <a class="links_footer" href="./homePage.html">Pagina inicial</a
+          ><br />
+          <a class="links_footer" href="../oqeprogramação/widev.html"
+            >O que é programação?</a
+          ><br />
+          <h2 class="txt-lang-footer">Blog de algumas linguagens</h2>
+          <div class="lang-footer-links">
+            <span class="lang-linkf"
+              ><a href="../Páginas das linguagens/C.html">C</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="../Páginas das linguagens/csharp.html">C#</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="../Páginas das linguagens/c++.html">C++</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="../Páginas das linguagens/java.html">Java</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="../Páginas das linguagens/javaScript.html"
+                >JavaScript</a
+              ></span
+            >
+            <span class="lang-linkf"
+              ><a href="../Páginas das linguagens/python.html">Python</a></span
+            >
+          </div>
+          <a class="links_footer" href="./aboutUs.html">Sobre nós</a>
+        </div>
+        <div class="githubs">
+          <h2 class="git-text">
+            Acesse o nosso GitHub para ver mais projetos!
+          </h2>
+
+          <div class="github-links">
+            <div class="git-links-thur">
+              <p>Arthur Pereira Faria</p>
+              <a href="https://github.com/Artkl3r" target="_blank">
+                <i class="fa-brands fa-github" id="github-arthur"></i>
+              </a>
+            </div>
+
+            <div class="git-links-rod">
+              <p>Rodrigo Perez O. Pineda</p>
+              <a href="https://github.com/rodrigoperezpineda" target="_blank">
+                <i class="fa-brands fa-github" id="github-rodrigo"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../JS/navBar.js"></script>
+    <!-- <script src="../BOOTSTRAP/bootstrap-4.1.3-dist/js/jquery-3.7.1.min.js"></script>
+    <script src="../BOOTSTRAP/bootstrap-4.1.3-dist/js/popper.js"></script>
+    <script src="../BOOTSTRAP/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

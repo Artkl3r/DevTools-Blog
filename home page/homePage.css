@@ -1,0 +1,125 @@
+:root {
+  --fonte-principal: "Barlow Condensed", sans-serif;
+  --cor-fundo: #f9f9f9;
+  --cor-texto: #1f2b37;
+  --nav-footer-color: #4f76f6;
+  --cor-extra: #77f2a1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--cor-fundo);
+}
+
+body {
+  background-color: var(--cor-fundo);
+}
+
+#introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  background-color: var(--cor-fundo);
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#intro_title,
+#intro_text {
+  width: 100%;
+  text-align: justify;
+}
+
+.intro-text-container {
+  max-width: 60%;
+}
+
+#intro_title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+#intro_text {
+  font-size: 20px;
+  
+}
+
+#imagem_intro {
+  width: 35%;
+  height: auto;
+  max-width: 400px;
+}
+
+.final-card {
+  margin-top: auto;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 60px;
+  /* z-index: -1; */
+  background-color: var(--cor-fundo);
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 calc(33.33% - 20px);
+  min-width: 240px;
+  max-width: 300px;
+  height: auto;
+  padding: 6px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.languages,
+.programs {
+  font-size: 28px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.vsc-image {
+  padding: 4px;
+}
