@@ -1,0 +1,40 @@
+O que é C++?
+C++ é uma linguagem de programação de alto desempenho, orientada a objetos e fortemente tipada. Seu objetivo é combinar o controle direto do hardware típico de linguagens de baixo nível com recursos modernos de abstração e modularidade. Graças à sua velocidade e eficiência, o C++ é amplamente utilizado em softwares que exigem alto desempenho, como jogos, ou até mesmo aplicativos bancários
+
+Funcionalidades principais
+O C++ é uma das linguagens mais poderosas e versáteis já criadas, oferecendo controle total sobre os recursos do sistema. Entre suas principais funcionalidades estão:
+
+• Orientação a Objetos: favorece a organização do código.
+• Alto desempenho: compilação direta em código de máquina, garantindo velocidade e uso eficiente de memória.
+• Manipulação de memória: uso de ponteiros e alocação dinâmica, permitindo controle fino dos recursos do sistema.
+• Compatibilidade com C: permite integração e reaproveitamento de código escrito em C.
+• Programação genérica: uso de templates para criar códigos flexíveis e reutilizáveis. 
+• Bibliotecas poderosas: oferece estruturas de dados, algoritmos e iteradores prontos para uso.
+
+Em que área de desenvolvimento digital posso usar C++?
+As principais aplicações incluem:
+
+Desenvolvimento de jogos
+Sistemas operacionais
+Aplicações desktop
+Programação embarcada e IoT
+Computação científica e engenharia
+Financeiro e bancário
+
+Profissões que utilizam C++
+
+•  Desenvolvedor C++ Júnior / Pleno / Sênior
+•  Engenheiro de Software de Sistemas
+•  Desenvolvedor de Jogos
+•  Engenheiro de Aplicações Embarcadas
+•  Especialista em Performance / Otimização
+•  Engenheiro de Software em Computação Gráfica ou    Científica
+
+Média salarial (Brasil, 2025 – valores aproximados)
+
+Júnior: R$ 3.500 a R$ 6.000
+Pleno: R$ 7.000 a R$ 11.000
+Sênior: R$ 12.000 a R$ 18.000
+Engenheiro especializado ou Arquiteto C++: pode ultrapassar R$ 20.000 mensais, especialmente em áreas de jogos, finanças e sistemas críticos.
+
+Atualmente, o C++ continua sendo uma das linguagens mais respeitadas e influentes do mundo, servindo de base para diversas tecnologias modernas e sendo indispensável em projetos que exigem velocidade, estabilidade e controle total sobre o hardware.

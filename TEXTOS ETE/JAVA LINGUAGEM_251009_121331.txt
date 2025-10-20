@@ -1,0 +1,40 @@
+O que é Java?
+Java é uma linguagem de programação orientada a objetos, multiplataforma e de propósito geral, criada em 1995 pela Sun Microsystems (hoje pertencente à Oracle).
+Seu lema “Write Once, Run Anywhere” (escreva uma vez, execute em qualquer lugar) reflete seu principal diferencial: programas Java podem rodar em praticamente qualquer sistema operacional sem precisar ser reescritos, graças à Java Virtual Machine (JVM).
+Hoje, Java é uma das linguagens mais consolidadas do mundo, amplamente utilizada em sistemas corporativos, aplicações web, dispositivos móveis e até em soluções de Big Data e IoT (Internet das Coisas).
+
+Funcionalidades principais
+Java é reconhecida pela sua estabilidade, segurança e escalabilidade, sendo uma das linguagens mais usadas em grandes empresas e bancos. Entre suas principais características estão:
+• Orientação a Objetos: promove a organização e reusabilidade do código.
+• Portabilidade total: programas compilados podem ser executados em qualquer sistema com JVM.
+• Segurança robusta: arquitetura projetada para evitar falhas e acessos indevidos à memória.
+• Multithreading: permite criar aplicações que executam várias tarefas simultaneamente.
+• Amplo ecossistema: bibliotecas e frameworks maduros, como Spring, Hibernate e JavaFX.
+• Alta performance: o JIT (Just-In-Time Compiler) otimiza o desempenho em tempo real.
+• Comunidade global: suporte constante e ampla documentação.
+• 
+Onde o Java é usado?
+Java é uma linguagem versátil que aparece em diversos setores e tipos de projetos:
+• Sistemas corporativos: usada em bancos, governos e grandes empresas para sistemas de gestão (ERP, CRM).
+• Desenvolvimento web: construção de back-ends escaláveis com frameworks como Spring Boot e Jakarta EE.
+• Aplicações mobile: base para o desenvolvimento de aplicativos Android.
+• Big Data: ferramentas como Hadoop e Spark utilizam Java em seu núcleo.
+• IoT (Internet das Coisas): integração de dispositivos inteligentes e sistemas embarcados.
+• Cloud Computing: amplamente usada em plataformas como AWS, Google Cloud e Oracle Cloud.
+
+Profissões que utilizam Java
+Java continua sendo uma das linguagens mais exigidas no mercado de trabalho, especialmente em ambientes corporativos. Profissionais que utilizam Java costumam ocupar cargos como:
+• Desenvolvedor Back-end (Java)
+• Engenheiro de Software
+• Desenvolvedor Mobile (Android)
+• Arquiteto de Sistemas
+• Desenvolvedor Full-Stack Java
+• Engenheiro de Big Data.
+• 
+Média salarial no Brasil
+O mercado para desenvolvedores Java é um dos mais estáveis e bem remunerados do setor de tecnologia. Os valores variam conforme o nível de experiência e o tipo de projeto:
+• Júnior (até 2 anos): entre R$ 4.500 e R$ 6.000 por mês.
+• Pleno (3 a 5 anos): entre R$ 7.000 e R$ 9.500 mensais.
+• Sênior (5+ anos): de R$ 11.000 a R$ 15.000, podendo ultrapassar R$ 18.000 em projetos corporativos ou financeiros.
+Conclusão
+Java é uma linguagem que atravessou gerações e continua indispensável no mundo da tecnologia. Sua portabilidade, estabilidade e ampla base de bibliotecas fazem dela uma escolha ideal para quem busca carreiras sólidas em desenvolvimento corporativo, Android ou sistemas de grande escala.

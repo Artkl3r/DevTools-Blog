@@ -1,0 +1,44 @@
+O que é JavaScript? 
+JavaScript é uma das linguagens de programação mais populares do mundo e um dos pilares da internet moderna. Sua principal característica é a flexibilidade, já que pode ser usada tanto no front-end (a parte que o usuário vê) quanto no back-end (a parte que roda por trás das telas).
+
+Funcionalidades principais
+O sucesso do JavaScript está ligado ao seu poder de transformar experiências digitais. Entre as suas principais funcionalidades estão:
+
+• Manipulação de páginas web (DOM): alterar conteúdos, estilos e criar interações em tempo real.
+• Programação assíncrona: executa múltiplas tarefas ao mesmo tempo sem travar a aplicação.
+• Integração com APIs modernas: geolocalização, áudio, vídeo, armazenamento local, notificações push e muito mais.
+• Versatilidade de ambientes: além dos navegadores, com Node.js o JavaScript também roda em servidores, aplicativos móveis e até programas desktop.
+• Ecossistema rico: frameworks e bibliotecas como React, Angular, Vue, Express e Electron ampliam ainda mais o alcance da linguagem.
+
+Onde o JavaScript é usado?
+Graças a esse conjunto de recursos, o JavaScript aparece em diferentes áreas do desenvolvimento digital:
+
+• Desenvolvimento Web Front-end
+• Desenvolvimento Back-end
+• Aplicativos Mobile
+• Aplicações Desktop
+• Jogos e gráficos 3D
+
+Profissões que utilizam JavaScript
+
+A linguagem está presente em várias carreiras dentro da tecnologia. Confira algumas das mais comuns:
+
+• Desenvolvedor Front-end
+• Desenvolvedor Back-end (Node.js)
+• Desenvolvedor Full-Stack
+• Desenvolvedor Mobile com JavaScript
+• Engenheiro de Software/Tech Lead
+
+Média salarial no Brasil
+
+O mercado brasileiro valoriza bastante profissionais com domínio em JavaScript. Segundo dados recentes, os salários médios são:
+
+Júnior (até 2 anos de experiência): em torno de R$ 4.000 a R$ 5.000 por mês.
+
+Pleno (3 a 5 anos): aproximadamente R$ 7.000 a R$ 9.000 mensais.
+
+Sênior (mais de 5 anos): entre R$ 11.000 e R$ 13.500 ou mais, dependendo da empresa e da região.
+
+Conclusão
+
+JavaScript é mais do que apenas uma linguagem de programação: é a ponte entre ideias criativas e experiências digitais reais. Seja em um site, aplicativo mobile, jogo ou plataforma online, dificilmente você usará a internet sem ter contato com algo construído com JavaScript. Para quem deseja ingressar ou crescer no mundo da tecnologia, dominar essa linguagem é praticamente obrigatório.

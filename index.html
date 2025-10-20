@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>DevTools</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="./IMAGENS/icon.png" />
+    <link rel="stylesheet" href="./CSS Geral/navBar.css" />
+    <link rel="stylesheet" href="./CSS Geral/body.css" />
+    <link rel="stylesheet" href="./CSS Geral/footer.css" />
+    <link rel="stylesheet" href="./home page/homePage.css" />
+
+    <!-- Bootstrap e FontAwesome online -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap local  -->
+    <!-- <link
+      rel="stylesheet"
+      href="./fontawesome-free-7.1.0-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./BOOTSTRAP/bootstrap-4.1.3-dist/css/bootstrap.min.css"
+    /> -->
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div id="logo-nav">
+            <a href="#">
+              <img src="./IMAGENS/icon.png" alt="" class="logo" />
+            </a>
+          </div>
+          <div class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="./oqeprogramação/widev.html">O que é programação?</a>
+            <div id="dropdown">
+              <button class="dropbtn" onclick="dropFunc()">
+                Linguagens
+                <i class="fa-solid fa-caret-down" id="arrow_icon"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="./Páginas das linguagens/C.html">C</a>
+                <a href="./Páginas das linguagens/csharp.html">C#</a>
+                <a href="./Páginas das linguagens/c++.html">C++</a>
+                <a href="./Páginas das linguagens/java.html">Java</a>
+                <a href="./Páginas das linguagens/javaScript.html"
+                  >JavaScript</a
+                >
+                <a href="./Páginas das linguagens/python.html">Python</a>
+              </div>
+            </div>
+            <a href="./Sobre nós/aboutUs.html">Sobre nós</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container" id="containers">
+      <div id="ponta6">
+        <div id="introduction">
+          <div class="intro-text-container">
+            <h2 id="intro_title">
+              Vamos mostrar e te introduzir a diversas linguagens de programação
+              utilizadas hoje em dia!
+            </h2>
+            <p id="intro_text">
+              Em um mundo onde a tecnologia está em constante evolução, a
+              variedade de linguagens de programação pode parecer esmagadora.
+              Este guia foi feito para simplificar esse cenário, te ajudando a
+              encontrar a linguagem ideal para sua jornada.
+              <br />
+              Cada linguagem tem um propósito único, seja para desenvolvimento
+              web, inteligência artificial, aplicativos móveis ou jogos. Vamos
+              desvendar as linguagens mais populares e suas aplicações práticas,
+              para que você possa tomar uma decisão informada e começar sua
+              carreira na programação.
+            </p>
+          </div>
+
+          <img src="./IMAGENS/img_homePage.png" id="imagem_intro" />
+        </div>
+      </div>
+
+      <h2 class="languages">Linguagens que iremos abordar</h2>
+      <div class="all-cards">
+        <div class="card-row">
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos linguagens/C_logo.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">C</h5>
+              <p class="card-text">
+                A linguagem C é um dos pilares da programação, conhecida por sua
+                eficiência e controle de baixo nível sobre o hardware. Ela é
+                fundamental para o desenvolvimento de sistemas operacionais
+                (como o kernel do Linux), compiladores, drivers de dispositivos
+                e também para a programação em sistemas embarcados.
+              </p>
+              <div class="final-card">
+                <p class="card-reference">
+                  Quer saber mais sobre a linguagem C?
+                </p>
+                <a
+                  href="./Páginas das linguagens/C.html"
+                  class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img class="card-img-top" src="./Logos linguagens/CSHARP.png" />
+            <div class="card-body">
+              <h5 class="card-title">C#</h5>
+              <p class="card-text">
+                C# é uma linguagem moderna criada pela Microsoft, amplamente
+                usada no desenvolvimento de aplicações para Windows, jogos com
+                Unity e sistemas corporativos. Ela é ideal para projetos .NET já
+                que oferece uma sintaxe limpa e orientada a objetos.
+              </p>
+              <div class="final-card">
+                <p class="card-reference">Quer saber mais sobre o C#?</p>
+                <a
+                  href="./Páginas das linguagens/csharp.html"
+                  class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos linguagens/C++_logo.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">C++</h5>
+              <p class="card-text">
+                A linguagem C++ é uma extensão da linguagem C, conhecida por
+                combinar programação procedural e orientada a objetos. É muito
+                usada no desenvolvimento de sistemas de alto desempenho, como
+                jogos, motores gráficos e softwares que exigem controle
+                eficiente dos recursos do computador.
+              </p>
+              <div class="final-card">
+                <p class="card-reference">Quer saber mais sobre o C++?</p>
+                <a
+                  href="./Páginas das linguagens/c++.html"
+                  class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-row">
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos linguagens/Java_logo.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+              <p class="card-text">
+                O Java é uma linguagem que foi criada a mais de 30 anos, porém,
+                até hoje continua como uma das linguagens de programação mais
+                utilizadas entre os devs, e ela é utilizada em sites da web,
+                aplicações de android, análise de dados, jogos, entre outros.
+              </p>
+              <div class="final-card">
+                <p class="card-reference">Quer saber mais sobre o Java?</p>
+                <a
+                  href="./Páginas das linguagens/java.html"
+                  class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos linguagens/JavaScript_logo.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">
+                O JavaScript é uma linguagem de programação muito utilizada em
+                sites da web, a principal função dele é dar interatividade e
+                contéudos dinâmicos das páginas web.
+                <br />
+                Ele támbem é uma linguagem versátil, já que pode ser utilizado
+                na parte do front-end, ou seja, na parte que o usuário está
+                vendo, tanto na parte de back-end do site, onde acontecem coisas
+                que o usuário não vê.
+              </p>
+              <div class="final-card">
+                <p class="card-reference">
+                  Quer saber mais sobre o JavaScript?
+                </p>
+                <a
+                  href="./Páginas das linguagens/javaScript.html"
+                  class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos linguagens/python_logoo.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">
+                O Python é uma linguagem muito popular hoje em dia, pois com ele
+                é possível criar diversos tipos de projetos, como analisar dados
+                de uma planilha muito grande, desenvolver softwares, aplicações
+                web, automações, entre muitos outros. Além disso, é uma
+                linguagem fácil de aprender, possui uma sintaxe simples e conta
+                com uma grande comunidade de usuários, o que facilita o
+                aprendizado e a resolução de problemas.
+              </p>
+              <div class="final-card">
+                <p class="card-reference">Quer saber mais sobre o Python?</p>
+                <a
+                  href="./Páginas das linguagens/python.html"
+                  class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Programas utilizados-->
+      <h2 class="programs">
+        Alguns dos principais aplicativos usados para programar
+      </h2>
+      <div class="all-cards">
+        <div class="card-row">
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos Programas/VS Code Logo.png"
+              alt="Imagem de capa do card"
+              id="vsc-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Visual Studio Code</h5>
+              <p class="card-text">
+                Esse programa é um dos mais utilizados pelos desenvolvedores,
+                pois nele é possível programar em diversas linguagens
+                diferentes, muito por conta de suas extensões, que são criadas
+                pelos próprios usuários que usam a plataforma. Além dele támbem
+                ser muito customizavel, já que nele é possível adicionar
+                extensões que mudam as cores, ícones e dependendo até a fonte.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos Programas/Cursor.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cursor</h5>
+              <p class="card-text">
+                A Cursor é um programa que se destaca por ser nativa em IA,
+                construída a partir do VS Code. Ela permite que os
+                desenvolvedores programem com assistência de IA avançada,
+                utilizando grandes modelos de linguagem (LLMs) para escrever,
+                editar e corrigir código com um profundo entendimento do
+                projeto, além de ajudar a aumentar a produtividade.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos Programas/Sublime text.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sublime Text</h5>
+              <p class="card-text">
+                O Sublime Text é um editor de código conhecido por sua
+                velocidade, leveza e interface minimalista. Embora seja um
+                editor de texto, ele funciona como uma IDE simples e é muito
+                popular por ser altamente customizável através de plugins e
+                pacotes (gerenciados pelo Package Control)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-row">
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos Programas/Visual Studio.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Visual Studio</h5>
+              <p class="card-text">
+                O Visual Studio (VS) é completa e robusta, fornecida pela
+                Microsoft, focada principalmente em desenvolvimento para a
+                plataforma .NET, linguagens como C#, C++ e F#. É um ambiente de
+                desenvolvimento poderoso e pesado, ideal para projetos grandes e
+                complexos, pois já vem com compiladores, debuggers avançados e
+                designers gráficos integrados, funcionando como uma solução
+                all-in-one de nível empresarial.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos Programas/PyCharm.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pycharm</h5>
+              <p class="card-text">
+                O PyCharm, da JetBrains, é a IDE mais poderosa e completa para
+                Python, focada em maximizar a produtividade do desenvolvedor.
+                Ele oferece um conjunto robusto de ferramentas, incluindo
+                refatoração inteligente, análise estática de código e
+                gerenciamento de ambientes virtuais nativo. É a escolha
+                preferencial para projetos grandes e complexos em Python.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 19rem">
+            <img
+              class="card-img-top"
+              src="./Logos Programas/Android Studio.png"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Android Studio</h5>
+              <p class="card-text">
+                O Android Studio é a IDE oficial do Google para o
+                desenvolvimento de aplicativos Android, sendo baseada no
+                IntelliJ IDEA. É uma plataforma completa e pesada, essencial
+                para Kotlin e Java, que se destaca por ter um emulador rápido
+                integrado, um sistema de build robusto (Gradle) e ferramentas
+                visuais para design de interface, otimizando todo o ciclo de
+                criação de apps. Ele é muito utilizado no desenvolvimento de
+                aplicativos mobile.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_main">
+        <img src="./IMAGENS/iconText.png" alt="" class="img_footer" />
+        <div class="our_pages">
+          <h2 class="footer_pages" style="font-size: 23px">Nossas páginas</h2>
+          <a class="links_footer" href="./home page/homePage.html">Pagina inicial</a
+          ><br />
+          <a class="links_footer" href="./oqeprogramação/widev.html"
+            >O que é programação?</a
+          ><br />
+          <h2 class="txt-lang-footer">Blog de algumas linguagens</h2>
+          <div class="lang-footer-links">
+            <span class="lang-linkf"
+              ><a href="./Páginas das linguagens/C.html">C</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="./Páginas das linguagens/csharp.html">C#</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="./Páginas das linguagens/c++.html">C++</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="./Páginas das linguagens/java.html">Java</a></span
+            >
+            <span class="lang-linkf"
+              ><a href="./Páginas das linguagens/javaScript.html"
+                >JavaScript</a
+              ></span
+            >
+            <span class="lang-linkf"
+              ><a href="./Páginas das linguagens/python.html">Python</a></span
+            >
+          </div>
+          <a class="links_footer" href="./Sobre nós/aboutUs.html">Sobre nós</a>
+        </div>
+        <div class="githubs">
+          <h2 class="git-text">
+            Acesse o nosso GitHub para ver mais projetos!
+          </h2>
+
+          <div class="github-links">
+            <div class="git-links-thur">
+              <p>Arthur Pereira Faria</p>
+              <a href="https://github.com/Artkl3r" target="_blank">
+                <i class="fa-brands fa-github" id="github-arthur"></i>
+              </a>
+            </div>
+
+            <div class="git-links-rod">
+              <p>Rodrigo Perez O. Pineda</p>
+              <a href="https://github.com/rodrigoperezpineda" target="_blank">
+                <i class="fa-brands fa-github" id="github-rodrigo"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./JS/navBar.js"></script>
+    <!-- <script src="./BOOTSTRAP/bootstrap-4.1.3-dist/js/jquery-3.7.1.min.js"></script>
+    <script src="./BOOTSTRAP/bootstrap-4.1.3-dist/js/popper.js"></script>
+    <script src="./BOOTSTRAP/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
